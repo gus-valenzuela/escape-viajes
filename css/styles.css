@@ -1,13 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif; }
 
-h1 {
-  font-size: 50px;
-  font-weight: 500;
-  line-height: 70px;
-  padding-top: 130px; }
 
-h2 {
+h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 40px;
@@ -38,11 +33,9 @@ p {
   justify-content: center;
   margin: auto; }
 
-.cabecera__titulo {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto; }
+.carousel-item p {
+  color: #ffffff;
+}
 
 .topMargin-xs {
   margin-top: 15px; }
@@ -74,13 +67,6 @@ p {
 .navbar-toggler:focus {
   outline: none; }
 
-#cabecera {
-  background-image: url("../images/personas_reunidas.jpg");
-  background-size: cover;
-  padding-top: 90px;
-  min-height: 500px;
-  color: #24303c; }
-
 .contentCenter {
   max-width: 800px;
   margin: 20px auto 60px auto;
@@ -91,7 +77,8 @@ p {
 
 .containerCards .card {
   text-align: center;
-  margin: 14px; }
+  margin: 14px;
+  border:grey solid 1px}
 
 .btn-primary {
   background-color: #24303c; }
@@ -100,7 +87,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto; }
+  margin: auto;}
 
 .listInline {
   padding-top: 10px; }
@@ -161,7 +148,7 @@ form {
     width: 100%;
     height: 180px;
     border-radius: 4px; }
-  form h2 {
+  form h1 {
     font-size: 22px;
     margin-bottom: 20px;
     text-align: center; }
@@ -231,7 +218,6 @@ select {
   width: 680px;
   height: 400px;
   margin-bottom: 20px;
- 
 }
 
 .imagenPais img {
@@ -251,6 +237,12 @@ select {
   h1 {
     font-size: 30px;
     line-height: none; }
+
+  .carousel-inner {
+    max-height: 360px;}
+  .carouselImage {
+    height: 360px;
+  }
   }
 
 /*@media (min-width: 576px) and (max-width: 767.98px) { ... }
