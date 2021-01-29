@@ -46,6 +46,15 @@ p {
 .topMargin-lg {
   margin-top: 60px; }
 
+.bottomMargin-xs {
+  margin-bottom: 15px; }
+
+.bottomMargin-sm {
+  margin-bottom: 30px; }
+
+.bottomMargin-lg {
+  margin-bottom: 60px; }
+
 .navbar {
   background-color: #222831;
   min-height: 100px; }
@@ -190,34 +199,22 @@ select {
   background: #31aaaa;
   font-size: 19px; }
 
+
 /*contenido paises*/
-#canada {
-  background-image: url("../images/canada1.jpg"); }
-
-#eeuu {
-  background-image: url("../images/eeuu1.jpg"); }
-
-#inglaterra {
-  background-image: url("../images/inglaterra2.jpg"); }
-
-.tituloPais {
-  background-size: cover;
-  padding-top: 90px;
-  margin-bottom: 20px;
-  min-height: 500px;
-  color: #222831; }
-
 .parrafoPaises {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  margin-top: 30px;
-  text-align: center; }
+  text-align: center;
+}
+
+.parrafoPaises h3 {
+  padding-top: 30px;
+}
 
 .imagenPais {
   width: 680px;
   height: 400px;
-  margin-bottom: 20px;
 }
 
 .imagenPais img {
@@ -242,6 +239,15 @@ select {
     max-height: 360px;}
   .carouselImage {
     height: 360px;
+  }
+  .topMargin-lg {
+    margin-top: 20px;
+  }
+  .bottomMargin-lg {
+    margin-bottom: 20px;
+  }
+  .bottomMargin-sm {
+    margin-bottom: 13px;
   }
   }
 
